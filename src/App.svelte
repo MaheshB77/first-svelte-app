@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Fundamentals from "./lib/Fundamentals.svelte";
+  import Fundamentals from "./components/Fundamentals.svelte";
 </script>
 
 <Fundamentals/>
