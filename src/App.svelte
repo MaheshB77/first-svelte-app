@@ -1,5 +1,7 @@
 <script lang="ts">
   //   import Profit from "./components/conditional-classes/Profit.svelte";
+  import BindGroupCheckbox from "./components/binding/bind-group/BindGroupCheckbox.svelte";
+  import BindGroupRadio from "./components/binding/bind-group/BindGroupRadio.svelte";
   import Binding from "./components/binding/Binding.svelte";
   import PropsBindingParent from "./components/binding/props-binding/PropsBindingParent.svelte";
   import Profit from "./components/conditional-classes/shorthand/Profit.svelte";
@@ -34,4 +36,10 @@
 <!-- <Binding /> -->
 
 <!-- Props Binding -->
-<PropsBindingParent />
+<!-- <PropsBindingParent /> -->
+
+<!-- Group binding (radio) -->
+<!-- <BindGroupRadio /> -->
+
+<!-- Group binding (checkbox) -->
+<BindGroupCheckbox />
