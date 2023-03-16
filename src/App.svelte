@@ -1,5 +1,7 @@
 <script lang="ts">
-//   import Profit from "./components/conditional-classes/Profit.svelte";
+  //   import Profit from "./components/conditional-classes/Profit.svelte";
+  import Binding from "./components/binding/Binding.svelte";
+  import PropsBindingParent from "./components/binding/props-binding/PropsBindingParent.svelte";
   import Profit from "./components/conditional-classes/shorthand/Profit.svelte";
   import ComponentEvents from "./components/events/ComponentEvents.svelte";
   // import Parent from "./components/events/event-forwarding/Parent.svelte";
@@ -26,4 +28,10 @@
 <!-- <Profit /> -->
 
 <!-- Conditional classes shorthand-->
-<Profit />
+<!-- <Profit /> -->
+
+<!-- Binding -->
+<!-- <Binding /> -->
+
+<!-- Props Binding -->
+<PropsBindingParent />
