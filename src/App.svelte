@@ -2,6 +2,8 @@
   //   import Profit from "./components/conditional-classes/Profit.svelte";
   import BindGroupCheckbox from "./components/binding/bind-group/BindGroupCheckbox.svelte";
   import BindGroupRadio from "./components/binding/bind-group/BindGroupRadio.svelte";
+  import BindThisParent from "./components/binding/bind-this-component/BindThisParent.svelte";
+  import BindThis from "./components/binding/bind-this/BindThis.svelte";
   import Binding from "./components/binding/Binding.svelte";
   import PropsBindingParent from "./components/binding/props-binding/PropsBindingParent.svelte";
   import Profit from "./components/conditional-classes/shorthand/Profit.svelte";
@@ -42,4 +44,10 @@
 <!-- <BindGroupRadio /> -->
 
 <!-- Group binding (checkbox) -->
-<BindGroupCheckbox />
+<!-- <BindGroupCheckbox /> -->
+
+<!-- Bind this (any HTML element)-->
+<!-- <BindThis /> -->
+
+<!-- Bind this (Component) -->
+<BindThisParent />
