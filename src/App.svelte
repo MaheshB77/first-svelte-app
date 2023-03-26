@@ -13,6 +13,7 @@
   import EventDispatcher from "./components/3-events/EventDispatcher.svelte";
   import Fundamentals from "./components/1-fundamentals/Fundamentals.svelte";
   import ReactiveStatements from "./components/2-reactive-statements/ReactiveStatements.svelte";
+    import EachBlock from "./components/6-each-block/EachBlock.svelte";
 </script>
 
 <!-- <Fundamentals/> -->
@@ -50,4 +51,7 @@
 <!-- <BindThis /> -->
 
 <!-- Bind this (Component) -->
-<BindThisParent />
+<!-- <BindThisParent /> -->
+
+<!-- Each block -->
+<EachBlock />
