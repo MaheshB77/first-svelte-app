@@ -10,6 +10,7 @@
 
 <div class="">
     <!-- On native html elements events are automatically bubbled to parent ex. below -->
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
     <div class="" on:click={handleOnClick}>
         <button>Click button</button>
     </div>
