@@ -15,6 +15,7 @@
     import ReactiveStatements from './components/2-reactive-statements/ReactiveStatements.svelte';
     import EachBlock from './components/6-each-block/EachBlock.svelte';
     import EachBlockWithEmptyArray from './components/6-each-block/EachBlockWithEmptyArray.svelte';
+    import EachBlockKeyed from './components/6-each-block/EachBlockKeyed.svelte';
 </script>
 
 <!-- <Fundamentals/> -->
@@ -56,4 +57,5 @@
 
 <!-- Each block -->
 <!-- <EachBlock /> -->
-<EachBlockWithEmptyArray />
+<!-- <EachBlockWithEmptyArray /> -->
+<EachBlockKeyed />
