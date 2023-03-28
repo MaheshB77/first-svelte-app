@@ -16,6 +16,8 @@
     import EachBlock from './components/6-each-block/EachBlock.svelte';
     import EachBlockWithEmptyArray from './components/6-each-block/EachBlockWithEmptyArray.svelte';
     import EachBlockKeyed from './components/6-each-block/EachBlockKeyed.svelte';
+    import WithoutAwaitBlock from './components/7-await-block/WithoutAwaitBlock.svelte';
+    import WithAwaitBlock from './components/7-await-block/WithAwaitBlock.svelte';
 </script>
 
 <!-- <Fundamentals/> -->
@@ -58,4 +60,8 @@
 <!-- Each block -->
 <!-- <EachBlock /> -->
 <!-- <EachBlockWithEmptyArray /> -->
-<EachBlockKeyed />
+<!-- <EachBlockKeyed /> -->
+
+<!-- Await block -->
+<!-- <WithoutAwaitBlock /> -->
+<WithAwaitBlock />
