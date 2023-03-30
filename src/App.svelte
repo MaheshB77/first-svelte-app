@@ -18,6 +18,8 @@
     import EachBlockKeyed from './components/6-each-block/EachBlockKeyed.svelte';
     import WithoutAwaitBlock from './components/7-await-block/WithoutAwaitBlock.svelte';
     import WithAwaitBlock from './components/7-await-block/WithAwaitBlock.svelte';
+  import ContextParent from './components/8-context/ContextParent.svelte';
+  import ContextChild2 from './components/8-context/ContextChild2.svelte';
 </script>
 
 <!-- <Fundamentals/> -->
@@ -64,4 +66,8 @@
 
 <!-- Await block -->
 <!-- <WithoutAwaitBlock /> -->
-<WithAwaitBlock />
+<!-- <WithAwaitBlock /> -->
+
+<!-- Context -->
+<ContextParent />
+<ContextChild2 />
