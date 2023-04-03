@@ -22,6 +22,7 @@
   import ContextChild2 from "./components/8-context/ContextChild2.svelte";
   import StoreWritableStoreHome from "./components/9-store/writable/WritableStoreHome.svelte";
   import WritableStoreHome from "./components/9-store/writable/WritableStoreHome.svelte";
+  import ReadableStoreHome from "./components/9-store/readable/ReadableStoreHome.svelte";
 </script>
 
 <!-- <Fundamentals/> -->
@@ -75,4 +76,5 @@
 <ContextChild2 /> -->
 
 <!-- Store -->
-<WritableStoreHome />
+<!-- <WritableStoreHome /> -->
+<ReadableStoreHome />
