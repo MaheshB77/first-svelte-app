@@ -20,9 +20,9 @@
   import WithAwaitBlock from "./components/7-await-block/WithAwaitBlock.svelte";
   import ContextParent from "./components/8-context/ContextParent.svelte";
   import ContextChild2 from "./components/8-context/ContextChild2.svelte";
-  import StoreWritableStoreHome from "./components/9-store/writable/WritableStoreHome.svelte";
-  import WritableStoreHome from "./components/9-store/writable/WritableStoreHome.svelte";
-  import ReadableStoreHome from "./components/9-store/readable/ReadableStoreHome.svelte";
+  import StoreWritableStoreHome from "./components/9-store/1-writable/WritableStoreHome.svelte";
+  import WritableStoreHome from "./components/9-store/1-writable/WritableStoreHome.svelte";
+  import ReadableStoreHome from "./components/9-store/2-readable/ReadableStoreHome.svelte";
 </script>
 
 <!-- <Fundamentals/> -->
