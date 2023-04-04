@@ -23,6 +23,7 @@
   import StoreWritableStoreHome from "./components/9-store/1-writable/WritableStoreHome.svelte";
   import WritableStoreHome from "./components/9-store/1-writable/WritableStoreHome.svelte";
   import ReadableStoreHome from "./components/9-store/2-readable/ReadableStoreHome.svelte";
+  import StoreContractHome from "./components/9-store/3-store-contract/StoreContractHome.svelte";
 </script>
 
 <!-- <Fundamentals/> -->
@@ -77,4 +78,5 @@
 
 <!-- Store -->
 <!-- <WritableStoreHome /> -->
-<ReadableStoreHome />
+<!-- <ReadableStoreHome /> -->
+<StoreContractHome />
