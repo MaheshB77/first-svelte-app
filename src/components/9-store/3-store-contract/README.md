@@ -7,7 +7,9 @@ To follow the store contract the object must have the structure like below
 
 ```javascript
 const store = {
-    subscribe() {}
+    subscribe(fn) {
+        fn(value);
+    }
     set() {}    //Optional
 }
 ```
