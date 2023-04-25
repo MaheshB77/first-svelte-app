@@ -25,6 +25,7 @@
   import ReadableStoreHome from "./components/9-store/2-readable/ReadableStoreHome.svelte";
   import StoreContractHome from "./components/9-store/3-store-contract/StoreContractHome.svelte";
   import DerivedStore from "./components/9-store/4-derived-store/DerivedStore.svelte";
+  import SvelteAction from "./components/10-svlete-actions/SvelteAction.svelte";
 </script>
 
 <!-- <Fundamentals/> -->
@@ -81,4 +82,7 @@
 <!-- <WritableStoreHome /> -->
 <!-- <ReadableStoreHome /> -->
 <!-- <StoreContractHome /> -->
-<DerivedStore />
+<!-- <DerivedStore /> -->
+
+<!-- Svelte actions -->
+<SvelteAction />
