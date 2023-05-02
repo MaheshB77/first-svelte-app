@@ -26,6 +26,7 @@
   import StoreContractHome from "./components/9-store/3-store-contract/StoreContractHome.svelte";
   import DerivedStore from "./components/9-store/4-derived-store/DerivedStore.svelte";
   import SvelteAction from "./components/10-svlete-actions/SvelteAction.svelte";
+  import SlotExample from "./components/11-slots/single-slot/SlotExample.svelte";
 </script>
 
 <!-- <Fundamentals/> -->
@@ -85,4 +86,7 @@
 <!-- <DerivedStore /> -->
 
 <!-- Svelte actions -->
-<SvelteAction />
+<!-- <SvelteAction /> -->
+
+<!-- Slots -->
+<SlotExample />
